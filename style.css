@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
 /* Estilos generales */
 .navbar {
     display: flex;
@@ -8,6 +15,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 96vh;
+    width: 99vw;
     padding: 20px;
 }
 
@@ -20,70 +28,6 @@
     width: 222px;
 }
 
-/* Estilos del formulario */
-.form__container {
-    position: absolute;
-    left: 50%; /* Añade un ajuste horizontal al centro */
-    transform: translateX(-50%); /* Centra horizontalmente */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 100px;
-}
-
-.form__container .form__item {
-    width: 350px;
-    height: 520px;
-    background-color: #ffffff;
-    color: #2775d5;
-    font-family: "Montserrat", sans-serif;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    padding: 16px; /* Agrega espaciado interno */
-    margin: -22px -407px 10px 10px;
-}
-
-.form__container .form__item h1 {
-    font-size: 17px;
-    font-weight: revert;
-}
-
-.form__container .form__item form {
-    margin-top: 15px;
-}
-
-.form__container .form__item .input,
-.form__container .form__item .label {
-    width: 100%; /* Ancho completo */
-    border-inline-style: none;
-    border-block-start-style: none;
-}
-
-
-
-.form__container .form__item button {
-    background-color: #2775d5;
-    border: none;
-    margin-top: 9px;
-    cursor: pointer;
-}
-
-.form__container .form__item button .btn {
-    font-size: 17px;
-    border: none;
-    color: #fff;
-    background-color: transparent;
-    font-family: "Montserrat", sans-serif;
-    cursor: pointer;
-}
-
-.form__container .form__item button:hover {
-    background-color: #1e7aeb;
-}
-
-/* Estilos del texto */
-.custom-text {
-    margin-top: 300px; /* Ajuste vertical */
-}
 
 .custom-h2 {
     width: 70%;
@@ -98,37 +42,30 @@
     font-weight: bold; 
 }
 
-.mt-5 {
-    margin-top: -14rem!important;
-}
-
-.mt-1 {
-    margin-top: 11.25rem!important;
-}
-
 .overlay {
-    position: absolute;
-    top: 65px;
-    left: 154px;
-    width: 41%;
-    height: 34%;
-    background-color:rgb(255 255 255 / 60%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+  position: absolute;
+  top: 94px;
+  left: 154px;
+  width: 41%;
+  height: 34%;
+  background-color:rgb(255 255 255 / 60%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-text {
+  color: #242eb3b8;
+  text-align: center;
+  -webkit-text-stroke: thin;
   
-  .overlay-text {
-    color: #242eb3b8;
-    text-align: center;
-    -webkit-text-stroke: thin;
-    
-  }
-  
-  .overlay-text .precio{
-    font-size: x-large;
-    font-weight: 600;
-  }
+}
+
+.overlay-text .precio{
+  font-size: x-large;
+  font-weight: 600;
+}
+
 
   .card {
     border: none;
@@ -147,19 +84,16 @@
     font-weight: 700;
   }
 
-  footer{
-    background-color: gainsboro;
-  }
 
-  footer {
-    font-weight: 100;
-   display: flex;
-   justify-content: center;
-    width: 100%;
-    height: 60px;
-    font-size: smaller;
-  }
+ 
 
-  .footer {
-    margin: 20px 10px 10px 10px;
+
+
+  @media only screen and (max-width: 820px) and (min-width: 621px) {
+ 
+  }
+  
+  @media only screen and (max-width: 500px) and (min-width: 236px) {
+ 
+  
   }
